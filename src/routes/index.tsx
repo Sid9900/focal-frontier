@@ -26,11 +26,11 @@ function Index() {
     <main className="bg-background text-foreground">
       <header className="fixed inset-x-0 top-0 z-50 border-b border-border/70 bg-background/85 backdrop-blur-xl">
         <nav className="mx-auto flex h-14 max-w-7xl items-center justify-between px-5 md:px-8" aria-label="Primary navigation">
-          <a href="#top" className="text-sm font-extrabold tracking-normal" aria-label="Sony Alpha 7 V home">SONY <span className="ml-2 font-medium text-muted-foreground">α7 V</span></a>
+          <a href="#top" className="text-sm font-extrabold tracking-normal" aria-label="Cotswold Cameras home">Cotswold <span className="font-medium text-muted-foreground">Cameras</span></a>
           <div className="flex items-center gap-5">
             <a href="#highlights" className="hidden text-xs font-semibold text-muted-foreground transition-colors hover:text-foreground sm:block">Highlights</a>
             <a href="#specs" className="hidden text-xs font-semibold text-muted-foreground transition-colors hover:text-foreground sm:block">Specifications</a>
-            <a href={sonyUrl} target="_blank" rel="noreferrer" className="inline-flex h-8 items-center gap-1 rounded-full bg-primary px-4 text-xs font-bold text-primary-foreground transition-transform hover:scale-[1.03]">View at Sony <ArrowUpRight size={13} /></a>
+            <a href={sonyUrl} target="_blank" rel="noreferrer" className="inline-flex h-8 items-center gap-1 rounded-full bg-primary px-4 text-xs font-bold text-primary-foreground transition-transform hover:scale-[1.03]">Buy now <ArrowUpRight size={13} /></a>
           </div>
         </nav>
       </header>
@@ -41,7 +41,7 @@ function Index() {
           <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-transparent to-background" />
         </div>
         <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-1 flex-col items-center px-5 pt-8 text-center md:px-8 md:pt-14">
-          <p className="animate-rise text-base font-semibold text-primary">α7 V</p>
+          <p className="animate-rise text-2xl font-extrabold tracking-tight md:text-4xl">Sony <span className="text-primary">α7 V</span></p>
           <h1 className="animate-rise mt-4 max-w-5xl text-balance text-5xl font-extrabold leading-[0.98] md:text-7xl lg:text-8xl">Creativity,<br />levelled up.</h1>
           <p className="animate-rise mt-6 max-w-xl text-balance text-base font-medium leading-relaxed text-muted-foreground md:text-lg">Full-frame intelligence. Extraordinary speed. One hybrid camera built to keep pace with your vision.</p>
         </div>
@@ -118,7 +118,8 @@ function Index() {
       <section className="border-t border-border px-5 py-24 text-center md:px-8 md:py-36">
         <p className="text-sm font-bold text-primary">Sony α7 V</p>
         <h2 className="mx-auto mt-4 max-w-4xl text-balance text-5xl font-extrabold leading-tight md:text-8xl">Your vision,<br />in full.</h2>
-        <a href={sonyUrl} target="_blank" rel="noreferrer" className="mx-auto mt-10 inline-flex h-12 items-center gap-2 rounded-full bg-primary px-7 text-sm font-bold text-primary-foreground transition-transform hover:scale-[1.03]">Explore at Sony UK <ArrowUpRight size={16} /></a>
+        <a href={sonyUrl} target="_blank" rel="noreferrer" className="mx-auto mt-10 inline-flex h-12 items-center gap-2 rounded-full bg-primary px-7 text-sm font-bold text-primary-foreground transition-transform hover:scale-[1.03]">Buy now <ArrowUpRight size={16} /></a>
+        <p className="mt-4 text-base font-semibold text-foreground">£1,729</p>
       </section>
 
       <footer className="border-t border-border px-5 py-8 text-center text-xs text-muted-foreground">Concept landing page for the Sony α7 V. Product names and trademarks belong to Sony.</footer>
